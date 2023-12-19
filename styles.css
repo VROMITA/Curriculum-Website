@@ -1,1 +1,118 @@
+/* General CSS styel */
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h1 {
+    
+    font-size: 30px;
+    color: #22092C;
+}
+
+h3 {
+    font-size: 14px;
+    color: #872341;
+    
+}
+
+hr {
+    padding-top: 5px;
+    background-color: #BE3144;
+    
+}
+
+/* Specif styles in common between the cointaner */
+
+.cointainerDescription {
+    
+    color: #872341;
+    
+}
+
+/* Welcome Style */
+
+#containerWelcome {
+  padding-top: 50px;
+  background-color: #F05941;
+  width: auto;
+  height: 400px;
+}
+
+#logo {
+    padding-left: 300px;
+    float: left;
+    max-width: 20%;
+}
+
+/* 1st Container about my self */
+
+#containerMySelf{
+    width: auto;
+    height: 300px;
+    
+}
+
+#myself {
+    width: 50px;
+    height: auto;
+    float:left;
+
+}
+
+/* 2nd Container about my skills */
+
+#containerMySkills{
+    padding-left:580px;
+    width: auto;
+    height: 300px;
+}
+
+#skills {
+    width: 50px;
+    height: auto;
+    float:left;
+}
+
+/* 3rd Container about my hobbies */
+
+#containerMyHobbies{
+    padding-left:580px;
+    width: auto;
+    height: 300px;
+}
+
+#hobbies{
+    width: 50px;
+    height: auto;
+    float:left;
+}
+
+/* 4rd Container  - Contacts */
+
+#containerContacts{
+    
+    padding-left:580px;
+}
+
+#linkedin {
+    width: 50px;
+}
+
+#email {
+    padding-left: 50px;
+    width: 50px;
+    height: auto;
+    
+}
+
+#contact{
+    max-width: 5%;
+}
+
+#linkedin{
+    max-width: 5%;
+}
+
 
