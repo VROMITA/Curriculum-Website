@@ -48,26 +48,46 @@ hr {
 
 /* 1st Container about my self */
 
-#containerMySelf{
-    width: auto;
-    height: 300px;
-    
+.containerSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center; 
+    column-gap: 1px;   
+     
+}
+
+.titleContainer{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;    
 }
 
 #myself {
+    display: flex;
     width: 50px;
-    height: auto;
-    float:left;
-
+    justify-content: right;
+    justify-items: right;    
 }
+
+.cointainerDescription {
+    grid-column: span 2;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
 
 /* 2nd Container about my skills */
 
-#containerMySkills{
+/*#containerMySkills{
     padding-left:580px;
     width: auto;
     height: 300px;
-}
+} */
 
 #skills {
     width: 50px;
@@ -77,11 +97,11 @@ hr {
 
 /* 3rd Container about my hobbies */
 
-#containerMyHobbies{
+/* #containerMyHobbies{
     padding-left:580px;
     width: auto;
     height: 300px;
-}
+} */
 
 #hobbies{
     width: 50px;
