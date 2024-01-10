@@ -23,6 +23,10 @@ hr {
     
 }
 
+#welcomeTitle{
+    color:white;
+}
+
 /* Specific styles in common between the cointaner */
 
 .containerSection{
@@ -30,9 +34,6 @@ hr {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px auto;
     gap: 10px;
-    justify-content: center;
-    align-items: center;
-    justify-items: center; 
     column-gap: 1px;   
      
 }
@@ -43,6 +44,9 @@ hr {
     padding-right: 100px;
     color:#22092C;
     text-align: justify;
+    justify-content: center;
+    align-items: center;
+    justify-items: center; 
 }
 
 .containerImageAndTitleDescription{
@@ -51,7 +55,7 @@ hr {
     gap: 80px;
     justify-content: center;
     align-items: center;
-    justify-items: center;   
+    justify-items: center; 
 }
 
 
