@@ -114,7 +114,7 @@ hr {
     align-items: center;
     justify-items: center; 
     column-gap: 1px;   
-     
+    color: white;
 }
 
 #contacts{
