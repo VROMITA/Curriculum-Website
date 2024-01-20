@@ -1,14 +1,20 @@
 /* General CSS style */
 
 body {
-    background-color: #FFF5C2;
+    
+    background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
 
 h1 {
     
-    font-size: 28px;
+    font-size: 20px;
+    color: #22092C;
+}
+
+h2{
+    font-size: 15px;
     color: #22092C;
 }
 
@@ -20,6 +26,7 @@ h3 {
 
 hr {
     padding-top: 5px;
+    max-width: 100%;
     background-color: #6DB9EF;
     
 }
@@ -30,15 +37,12 @@ hr {
 
 /* Specific styles in common between the cointaner */
 
-.containerSection{
-    
-     
-}
+
 
 .cointainerDescription {
     
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
     color:#22092C;
     text-align: justify;
 }
@@ -51,7 +55,7 @@ hr {
 #containerWelcome {
   background-color: #6DB9EF;
   width: 100%;
-  height: 400px;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,9 +71,10 @@ hr {
 
 .navigation-menu {
     width: 100%;
-    height: 70px;
+    height: 50px;
+    position: sticky;
+    top: 0;
     display: flex;
-    padding-top: 10px;
     justify-content: center;
     text-align: center;
     flex-wrap: nowrap;
@@ -81,11 +86,11 @@ hr {
     flex:1; 
     display: flex;
     width: 100%;
-    height: 100%;
-    background-color: #3081D0;
+    height: 50px;
+    background-color: #FFF5C2;
     text-decoration:none;
-    color: white;
-    font-size: 50px;
+    color: #6DB9EF;
+    font-size: 20px;
     justify-content: center;
     border-color: #6DB9EF;
     align-items: center;
