@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebsiteCapstoneProject</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet">
 
 </head>
@@ -34,18 +35,44 @@
         </div>
         <h2 class="cointainerDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
     </div>
-    <hr>
+
+    <hr id="experience">
 
     <!-- Experience section -->
 
-    <div class="containerSection" id="experience">
-        <div class="containerTitle">
+    <div class="containerSection">
+     <div class="containerTitle">
          <h1 class="headerTitle">EXPERIENCE</h1>
         </div>
-        <img src="sand.jpg" alt="test" width="50%" weight="100px">
+        <!--Start Slideshow-->
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div id="containerSlideshow">
+            <!--Tables-->
+          <div class="table" id="table1">
+          <p class="jobTitle">JobTitle</p>
+          <p class="jobTime">DateStart-DateEnd</p>
+          <ul class="jobDescription">
+            <li>Lorem ipsum dolor sit amet, consectetur</li>
+            <li>Lorem ipsum dolor sit amet, consectetur</li>
+            <li>Lorem ipsum dolor sit amet, consectetur</li>
+            <li>Lorem ipsum dolor sit amet, consectetur</li>
+          </ul>
+          </div>
+          <div class="table" id="table1">
+            <p class="jobTitle">JobTitle</p>
+            <p class="jobTime">DateStart-DateEnd</p>
+            <ul class="jobDescription">
+              <li>Lorem ipsum dolor sit amet, consectetur</li>
+              <li>Lorem ipsum dolor sit amet, consectetur</li>
+              <li>Lorem ipsum dolor sit amet, consectetur</li>
+              <li>Lorem ipsum dolor sit amet, consectetur</li>
+            </ul>
+            </div>
+          </div>
+        </div>
     </div>
 
-    <hr>
+    <hr >
 
     <!-- Skills section -->
 
@@ -76,5 +103,10 @@
         <h3>Please check at the bottom of the website to see the source.</h3>
     </footer>
     
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

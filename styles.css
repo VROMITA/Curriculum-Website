@@ -107,6 +107,33 @@ hr {
 }
 
 
+/* Table style */
+
+#containerSlideshow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+
+}
+
+.table {
+    max-width: 400px;
+    height: auto;
+    border: #3081D0;
+    border-style: double;
+    border-radius: 5px;
+    background-color: #FFF5C2;
+
+}
+
+.jobDescription{
+    text-align: left;
+
+}
+
+.jobDescription li
+}
 
 /* 4rd Container  - Contacts */
 
