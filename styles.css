@@ -1,3 +1,20 @@
+/*Responsiveness*/
+
+/* Media query per schermi di dimensioni più piccole */
+@media screen and (max-width: 600px) {
+    /* Stili specifici per schermi con larghezza massima di 600px */
+  }
+  
+  /* Media query per schermi di dimensioni medie */
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Stili specifici per schermi con larghezza tra 601px e 1024px */
+  }
+  
+  /* Media query per schermi di dimensioni più grandi */
+  @media screen and (min-width: 1025px) {
+    /* Stili specifici per schermi con larghezza maggiore di 1024px */
+  }
+
 /* General CSS style */
 
 body {
@@ -38,6 +55,11 @@ hr {
 /* Specific styles in common between the cointaner */
 
 
+.headerTitle{
+    font-weight: bold;
+    color:#3081D0;
+}
+
 
 .cointainerDescription {
     padding-top:5%;
@@ -49,6 +71,7 @@ hr {
 
 .containerSection{
     padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 
@@ -59,6 +82,10 @@ hr {
   background-color: #6DB9EF;
   width: 100%;
   height: auto;
+  max-width: 100%; /* o qualsiasi valore desiderato per la larghezza massima */
+    margin: 0 auto; /* Per centrare il contenitore */
+    padding: 20px;
+    box-sizing: border-box; /* Per includere il padding nella larghezza totale */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,15 +93,15 @@ hr {
 }
 
 #logo {
-    
-    width: 20%;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Navigation Menu */
 
 .navigation-menu {
-    width: 100%;
-    height: 50px;
+    max-width: 100%;
+    height: 80px;
     position: sticky;
     top: 0;
     display: flex;
@@ -90,7 +117,7 @@ hr {
     flex:1; 
     display: flex;
     width: 100%;
-    height: 50px;
+    height: auto;
     background-color: #FFF5C2;
     text-decoration:none;
     color: #6DB9EF;
@@ -101,20 +128,29 @@ hr {
     
 }
 
+@media screen and (max-width: 600px) {
+    .navigation-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+
+}
+
+
+
 /* Containers About Me - Experience - Skills */
 
 
-.titleContainer{
-    justify-content: center;
-    align-items: center;
-    justify-items: center;    
-}
+
 
 
 /* Carousel style */
 
 .carousel-inner{
-    width: 400px;
+    width: 100%;
+    max-width: 600px;
     height: auto;
     border: #3081D0;
     border: 3px solid #3081D0;
@@ -147,7 +183,6 @@ hr {
 
 #containerContacts{
     display: grid;
-    grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px auto 100px;
     gap: 10px;
     justify-content: center;
@@ -156,6 +191,7 @@ hr {
     column-gap: 1px;   
     
 }
+
 
 #contacts{
     grid-column: span 2;
