@@ -1,1 +1,47 @@
+body {
+    
+    background-color: rgb(203, 194, 194);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
 
+
+/* Table style */
+
+.carousel-item {
+    width: 400px;
+    height: auto;
+    border: #3081D0;
+    border: 3px solid #3081D0;
+    border-radius: 5px;
+    background-color: #FFF5C2;
+    margin: 0 auto;
+    z-index: 1; /* o un valore appropriato */
+
+}
+
+/* Sovrascrivi il colore delle frecce del carousel */
+#carouselExampleControls .carousel-control-prev-icon,
+#carouselExampleControls .carousel-control-next-icon {
+  filter: invert(1); /* Inverte il colore dell'icona */
+}
+
+
+
+  
+
+.jobDescription{
+    text-align: left;
+
+}
+
+
+<p class="jobTitle">JobTitle3</p>
+          <p class="jobTime">DateStart-DateEnd</p>
+          <ul class="jobDescription">
+            <li>Lorem ipsum dolor sit amet, consectetur</li>
+            <li>Lorem ipsum dolor sit amet, consectetur</li>
+            <li>Lorem ipsum dolor sit amet, consectetur</li>
+            <li>Lorem ipsum dolor sit amet, consectetur</li>
+          </ul>
+          </div>

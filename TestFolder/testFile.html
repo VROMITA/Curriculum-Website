@@ -1,1 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Boostrap stylesheet-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body {
+    
+    background-color: rgb(203, 194, 194);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
 
+
+/* Table style */
+
+
+
+.carousel-inner{
+    width: 400px;
+    height: auto;
+    border: #3081D0;
+    border: 3px solid #3081D0;
+    border-radius: 5px;
+    background-color: #FFF5C2;
+    margin: 0 auto;
+
+}
+
+
+/* Sovrascrivi il colore delle frecce del carousel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1); /* Inverte il colore dell'icona */
+}
+
+
+
+  
+
+.jobDescription{
+    text-align: left;
+
+}
+
+
+
+    </style>
+</head>
+<body>
+
+    <div id="carouselExample" class="carousel slide carousel-fade">
+        
+        <div class="carousel-inner">
+          
+            <div class="carousel-item active" id="job1">
+            <p class="jobTitle">JobTitle1</p>
+          <p class="jobTime">DateStart-DateEnd</p>
+          <ul class="jobDescription">
+            <li>Lorem ipsum dolor sit amet, consectetur</li>
+            <li>Lorem ipsum dolor sit amet, consectetur</li>
+            <li>Lorem ipsum dolor sit amet, consectetur</li>
+            <li>Lorem ipsum dolor sit amet, consectetur</li>
+          </ul>
+          </div>
+          <div class="carousel-item" id="job2">
+            <p class="jobTitle">JobTitle2</p>
+          <p class="jobTime">DateStart-DateEnd</p>
+          <ul class="jobDescription">
+            <li>Lorem ipsum dolor sit amet, consectetur</li>
+            <li>Lorem ipsum dolor sit amet, consectetur</li>
+            <li>Lorem ipsum dolor sit amet, consectetur</li>
+            <li>Lorem ipsum dolor sit amet, consectetur</li>
+          </ul> 
+          </div>
+          <div class="carousel-item" id="JobTitle3">
+            <p class="jobTitle">JobTitle3</p>
+          <p class="jobTime">DateStart-DateEnd</p>
+          <ul class="jobDescription">
+            <li>Lorem ipsum dolor sit amet, consectetur</li>
+            <li>Lorem ipsum dolor sit amet, consectetur</li>
+            <li>Lorem ipsum dolor sit amet, consectetur</li>
+            <li>Lorem ipsum dolor sit amet, consectetur</li>
+          </ul>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+</body>
+</html>
