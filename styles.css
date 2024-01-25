@@ -25,24 +25,6 @@ body {
 }
 
 
-h1 {
-    
-    font-size: 30px;
-    color: #22092C;
-}
-
-
-
-h2{
-    font-size: 25px;
-    color: #22092C;
-}
-
-h3 {
-    font-size: 15px;
-    color: #3081D0;
-    
-}
 
 hr {
     padding-bottom: 1%;
@@ -53,6 +35,15 @@ hr {
 
 #welcomeTitle{
     color:white;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    #welcomeTitle {
+        font-size: 25px;
+        
+    }
+
 }
 
 /* Specific styles in common between the cointaners */
@@ -63,13 +54,29 @@ hr {
     color:#3081D0;
 }
 
+@media screen and (max-width: 600px) {
+    .headerTitle {
+        font-size: 20px;
+        
+    }
 
-.cointainerDescription {
+}
+
+
+.descriptionSection {
     padding-top:5%;
     padding-left: 5%;
     padding-right: 5%;
     color:#22092C;
     text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+    .descriptionSection {
+        font-size: 18px;
+        
+    }
+
 }
 
 .containerSection{
@@ -141,6 +148,14 @@ hr {
     
 }
 
+@media screen and (max-width: 600px) {
+    .navigation-menu a {
+        font-size: 20px;
+        
+    }
+
+}
+
 .navigation-menu a:hover{
     text-decoration: underline;
 
@@ -181,10 +196,26 @@ hover:active{
     font-size: 25px;
 }
 
+@media screen and (max-width: 600px) {
+    .carousel-item p {
+        font-size: 20px;
+        
+    }
+
+}
+
 .carousel-item li{
     font-size: 20px;
 }
 
+@media screen and (max-width: 600px) {
+    .carousel-item li{
+       font-size: 15px;
+
+        
+    }
+
+}
 
 /* Sovrascrivi il colore delle frecce del carousel */
 .carousel-control-prev-icon,
@@ -232,17 +263,33 @@ hover:active{
     gap: 20px;
 }
 
-#linkedin {
+#linkedin, #email {
     width: 50px;
     height: 50px;
 }
 
-#email {
-    width: 50px;
-    height: 50px;
-    
+@media screen and (max-width: 600px) {
+    #linkedin, #email {
+        width: 25px;
+        height: 25px;
+        
+    }
+
 }
 
+
+#copyright{
+    font-size: 15px;
+    color: #3081D0;
+}
+
+@media screen and (max-width: 600px) {
+    #copyright {
+        font-size:10px;
+        
+    }
+
+}
 
 
 
