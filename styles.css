@@ -184,7 +184,6 @@ hover:active{
     width: 100%;
     max-width: 600px;
     height: auto;
-    border: #3081D0;
     border: 3px solid #3081D0;
     border-radius: 5px;
     background-color: #FFF5C2;
@@ -230,6 +229,8 @@ hover:active{
 
 .jobDescription{
     text-align: left;
+    padding-left: 1% ;
+    padding-bottom: 1%;
 
 }
 
@@ -293,3 +294,20 @@ hover:active{
 
 
 
+/* SKILL BAR */
+
+.skillBar{
+    list-style-type: none;
+    height: auto;
+    text-align: left;
+}
+
+#skillBarContainer{
+    border: 2px solid blue;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+
+    
+}
