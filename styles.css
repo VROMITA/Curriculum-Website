@@ -297,17 +297,38 @@ hover:active{
 /* SKILL BAR */
 
 .skillBar{
+    
     list-style-type: none;
     height: auto;
     text-align: left;
+    border-radius: 0 5px 5px 0;
+    font-size: 18px;
+    background-color: #6DB9EF;
+    
 }
 
 #skillBarContainer{
-    border: 2px solid blue;
-    margin: 0 auto;
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 2px solid #3081D0;
     max-width: 600px;
+    width: 100%;
     height: auto;
-
-    
+    margin: 0 auto;
+    gap: 0.1rem;
+        
 }
+
+@media screen and (max-width: 600px) {
+    #skillBarContainer{
+        max-width: 400px;
+    }
+
+    .skillBar{
+     height: 20px;
+     font-size: 13px;
+
+
+    }
+  }
