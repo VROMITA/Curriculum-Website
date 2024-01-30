@@ -69,6 +69,7 @@ hr {
     padding-right: 5%;
     color:#22092C;
     text-align: justify;
+    font-size: 23px;
 }
 
 @media screen and (max-width: 600px) {
@@ -111,7 +112,7 @@ hr {
 
 .navigation-menu {
     max-width: 100%;
-    height: 50px;
+    height: 60px;
     position: sticky;
     top: 0;
     display: flex;
@@ -141,7 +142,7 @@ hr {
     background-color: #FFF5C2;
     text-decoration:none;
     color: #6DB9EF;
-    font-size: 25px;
+    font-size: 30px;
     justify-content: center;
     border-color: #6DB9EF;
     align-items: center;
