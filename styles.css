@@ -18,7 +18,8 @@
 /* General CSS style */
 
 body {
-    background-color: #E9EBF8;
+    background-color: #3081D0;
+    /* #E9EBF8 */
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     box-sizing: border-box;
@@ -27,12 +28,7 @@ body {
 
 
 
-hr {
-    padding-bottom: 1%;
-    max-width: 100%;
-    background-color: #6DB9EF;
-    
-}
+
 
 
 
@@ -71,9 +67,27 @@ hr {
 
 }
 
+.spaceBetweenCointainer{
+    height: 0.2rem;
+    max-width: 100%;
+    background-color: #3081D0;
+}
+
 .containerSection{
     padding-top: 5%;
     padding-bottom: 5%;
+    margin-top: 10%;
+    
+}
+
+/*Container di tutto */
+
+#containerEverything{
+
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    background-color:  #E9EBF8 ;
+    
 }
 
 
@@ -291,9 +305,9 @@ hover:active{
 
 
 
-/* 4rd Container  - Contacts */
+/* CONTACTS SECTION */
 
-#containerContacts{
+#containerSectionContacts{
     display: grid;
     grid-template-rows: 100px auto 100px;
     gap: 10px;
@@ -305,29 +319,54 @@ hover:active{
 }
 
 
+#containerFormContacts{
+    
+    border: 2px solid;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    padding: 1rem 0 1rem 0 ;
+
+}
+
+
+
+#header3custom{
+    color: #3081D0;
+    font-size: 23px;
+}
+
+@media screen and (max-width: 600px){
+    #header3custom {
+        font-size:18px;
+        
+    }
+}
+
+
 #contacts{
     grid-column: span 2;
 }
 
-#ContactsImageContainer{
-    grid-column: span 2;
-    display: flex;
-    gap: 20px;
-}
+
 
 #linkedin, #email {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
 }
 
 @media screen and (max-width: 600px) {
     #linkedin, #email {
-        width: 25px;
-        height: 25px;
+        width: 18px;
+        height: 18px;
         
     }
 
 }
+
+/* FORM STYLES */
+
+
 
 
 #copyright{
@@ -342,5 +381,4 @@ hover:active{
     }
 
 }
-
 
