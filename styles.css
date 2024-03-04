@@ -367,7 +367,26 @@ hover:active{
 /* FORM STYLES */
 
 
+.formStyle {
+   list-style: none;
+}
 
+
+
+#email, #name {
+    height: 30px;
+    width: 250px;
+    margin-bottom: 1rem;
+    border-radius: 0.2rem;
+    border-style: dashed;
+}
+
+#textmessage{
+    border-radius: 0.2rem;
+    height: 150px;
+    width: 250px;
+    border-style: dashed;
+}
 
 #copyright{
     font-size: 15px;

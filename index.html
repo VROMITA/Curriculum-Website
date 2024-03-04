@@ -145,14 +145,23 @@
      <div id="containerFormContacts">
 
      <form id="formContacts">
-      <label name="emailaddress">Email:</label>
-      <input name="emailaddress" type="email" required>
-      <label name="nameSender">Name:</label>
-      <input name="nameSender" type="text" placeholder="Your Name.." required>
-      <label name="description">Message:</label>
-      <input name"description" type="text" placeholder="Write your message.." required>
-      <input id="submitButton" type="submit" name="submitButton">
+      <ul>
+      <li class="formStyle">
+      <label for="emailaddress" name="emailaddress">Email:</label>
+      <input id="email" name="emailaddress" type="email" required>
+      </li>
 
+      <li class="formStyle">
+      <label for="nameSender"  name="nameSender">Name:</label>
+      <input id="name" name="nameSender" type="text" placeholder="Your Name.." required>
+    </li>
+      
+    <li class="formStyle">
+      <label for="textmessage">Message:</label>
+      <textarea id="textmessage" name="textmessage">hola</textarea>
+    </li>
+      <input id="submitButton" type="submit" name="submitButton">
+        </ul>
      </form>
      </div>
 
