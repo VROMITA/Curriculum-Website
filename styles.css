@@ -74,7 +74,7 @@ body {
 }
 
 .containerSection{
-    padding-top: 5%;
+    padding-top: 5;
     padding-bottom: 5%;
     margin-top: 10%;
     
@@ -287,6 +287,7 @@ hover:active{
     margin: 0 auto;
     gap: 0.1rem;
     background-color: #FEFFFE;
+    color: #FEFFFE;
         
 }
 
@@ -319,25 +320,18 @@ hover:active{
 }
 
 
-#containerFormContacts{
-    
-    border: 2px solid;
-    width: 400px;
-    height: auto;
-    margin: 0 auto;
-    padding: 1rem 0 1rem 0 ;
-
-}
 
 
 
-#header3custom{
+
+.header3custom{
     color: #3081D0;
     font-size: 23px;
+    text-align: center;
 }
 
 @media screen and (max-width: 600px){
-    #header3custom {
+    .header3custom {
         font-size:18px;
         
     }
@@ -366,29 +360,45 @@ hover:active{
 
 /* FORM STYLES */
 
+.itemForm {
+    list-style: none;
+    margin-top: 1rem;
+}
 
-.formStyle {
-   list-style: none;
+form {
+    padding-top: 1rem;
+    width: 500px;
+    margin: 0 auto;
+    
+}
+
+.inputForm{
+    display:inline;
+    width: 300px;  
+    border-style: hidden;
+    border-radius: 0.5rem;
+}
+
+#emailAddress, #nameSender{
+ margin-left: 20px;
+}
+
+.labelForm{
+    float: left;
+    color: #6DB9EF;
+}
+
+textarea{
+    width: 300px;
+    height: 200px;
 }
 
 
 
-#email, #name {
-    height: 30px;
-    width: 250px;
-    margin-bottom: 1rem;
-    border-radius: 0.2rem;
-    border-style: dashed;
-}
-
-#textmessage{
-    border-radius: 0.2rem;
-    height: 150px;
-    width: 250px;
-    border-style: dashed;
-}
+/* FOOTER STYLE */
 
 #copyright{
+    margin-top: 3rem;
     font-size: 15px;
     color: #3081D0;
 }
@@ -400,4 +410,6 @@ hover:active{
     }
 
 }
+
+
 
