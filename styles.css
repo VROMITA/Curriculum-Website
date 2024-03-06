@@ -360,32 +360,64 @@ hover:active{
 
 /* FORM STYLES */
 
+.containerFormContacts{
+    text-align: center;
+}
+
 .itemForm {
     list-style: none;
     margin-top: 1rem;
+    
 }
 
+
+
 form {
+
     padding-top: 1rem;
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     margin: 0 auto;
     
 }
+
+#formUnorderedList{
+    padding: 0;
+}
+
+
 
 .inputForm{
     display:inline;
     width: 300px;  
     border-style: hidden;
     border-radius: 0.5rem;
+    
 }
 
+
+
 #emailAddress, #nameSender{
- margin-left: 20px;
+ margin-left: 1rem;
 }
+
+
+
+
 
 .labelForm{
     float: left;
     color: #6DB9EF;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .labelForm {
+        float:none;
+        display: block ;
+        
+    }
+
 }
 
 textarea{
@@ -393,6 +425,38 @@ textarea{
     height: 200px;
 }
 
+@media screen and (max-width: 600px) {
+    #emailAddress, #nameSender {
+        margin-left: 0; /* Rimuovere il margine sinistro quando la risoluzione è inferiore a 600px */
+    }
+    
+    #emailAddress, #nameSender, #textmessage {
+        width: 200px;
+        font-size: 13px;
+    }
+    
+    form {
+        width: 90%; /* Ridurre la larghezza del modulo per adattarsi a schermi più piccoli */
+    }
+    .containerFormContacts {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+#submitButton{
+    background-color:#FEFFFE ;
+    color: #3081D0;
+    border-radius: 0.5rem;
+    border-style:none
+}
+
+#submitButton:hover{
+    background-color: #6DB9EF;
+    color: #FEFFFE ;
+    border-style: none;
+}
 
 
 /* FOOTER STYLE */
