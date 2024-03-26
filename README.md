@@ -19,4 +19,27 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 https://api.openweathermap.org/data/2.5/weather?lat=41.1257843&lon=16.8620293&appid=06c970a79fa97220038e7592a6045834&units=metric
 
 
-`
+weather.main = [clear, rain, thunderstorm, clouds, drizzle]
+
+
+
+NEW PALETTE: #D9A74A YELLOW
+             
+
+
+/*Responsiveness*/
+
+/* Media query per schermi di dimensioni più piccole */
+@media screen and (max-width: 600px) {
+    /* Stili specifici per schermi con larghezza massima di 600px */
+  }
+  
+  /* Media query per schermi di dimensioni medie */
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Stili specifici per schermi con larghezza tra 601px e 1024px */
+  }
+  
+  /* Media query per schermi di dimensioni più grandi */
+  @media screen and (min-width: 1025px) {
+    /* Stili specifici per schermi con larghezza maggiore di 1024px */
+  }
