@@ -1,26 +1,10 @@
-/*Responsiveness*/
-
-/* Media query per schermi di dimensioni più piccole */
-@media screen and (max-width: 600px) {
-    /* Stili specifici per schermi con larghezza massima di 600px */
-  }
-  
-  /* Media query per schermi di dimensioni medie */
-  @media screen and (min-width: 601px) and (max-width: 1024px) {
-    /* Stili specifici per schermi con larghezza tra 601px e 1024px */
-  }
-  
-  /* Media query per schermi di dimensioni più grandi */
-  @media screen and (min-width: 1025px) {
-    /* Stili specifici per schermi con larghezza maggiore di 1024px */
-  }
 
 /* General CSS style */
 
 body {
-    background-color: #3081D0;
+    background-color: #253C59;
     /* #E9EBF8 */
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     box-sizing: border-box;
     
@@ -38,7 +22,7 @@ body {
 
 .headerTitle{
     font-weight: bold;
-    color:#3081D0;
+    color:#253C59;
 }
 
 @media screen and (max-width: 600px) {
@@ -70,7 +54,7 @@ body {
 .spaceBetweenCointainer{
     height: 0.2rem;
     max-width: 100%;
-    background-color: #3081D0;
+    background-color: #253C59;
 }
 
 .containerSection{
@@ -86,7 +70,7 @@ body {
 
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    background-color:  #E9EBF8 ;
+    background-color:  #FEFFFE ;
     
 }
 
@@ -108,8 +92,8 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-size: 2em;
+    color: #253C59;
+    font-size: 5rem;
     z-index: 2;
   }
   
@@ -165,9 +149,9 @@ body {
     display: flex;
     width: 100%;
     height: auto;
-    background-color: #FEFFFE;
+    background-color: #BF8D30;
     text-decoration:none;
-    color: #3081D0;
+    color: #253C59;
     font-size: 30px;
     justify-content: center;
     align-items: center;
@@ -210,9 +194,10 @@ hover:active{
     width: 100%;
     max-width: 600px;
     height: auto;
-    border: 3px solid #3081D0;
+    border: 3px solid #253C59;
     border-radius: 5px;
-    background-color: #FEFFFE;
+    background-color: #BF8D30;
+    color: #253C59;
    
 }
 
@@ -272,7 +257,7 @@ hover:active{
     text-align: left;
     border-radius: 0 5px 5px 0;
     font-size: 18px;
-    background-color: #6DB9EF;
+    background-color: #BF8D30;
     
 }
 
@@ -280,14 +265,15 @@ hover:active{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    border: 2px solid #3081D0;
+    border: 2px solid #253C59;
     max-width: 600px;
     width: 100%;
     height: auto;
     margin: 0 auto;
     gap: 0.1rem;
     background-color: #FEFFFE;
-    color: #FEFFFE;
+    color: #253C59;
+    
         
 }
 
@@ -325,7 +311,7 @@ hover:active{
 
 
 .header3custom{
-    color: #3081D0;
+    color: #253C59;
     font-size: 23px;
     text-align: center;
 }
@@ -390,8 +376,9 @@ form {
 .inputForm{
     display:inline;
     width: 300px;  
-    border-style: hidden;
+    border-color: #253C59;
     border-radius: 0.5rem;
+    border-style:solid;
     
 }
 
@@ -407,7 +394,7 @@ form {
 
 .labelForm{
     float: left;
-    color: #6DB9EF;
+    color: #253C59;
     
 }
 
@@ -447,13 +434,14 @@ textarea{
 
 #submitButton{
     background-color:#FEFFFE ;
-    color: #3081D0;
+    color: #253C59;
     border-radius: 0.5rem;
-    border-style:none
+    border-style:none;
+    background-color: #BF8D30;
 }
 
 #submitButton:hover{
-    background-color: #6DB9EF;
+    background-color: #253C59;
     color: #FEFFFE ;
     border-style: none;
 }
@@ -464,7 +452,7 @@ textarea{
 #copyright{
     margin-top: 3rem;
     font-size: 15px;
-    color: #3081D0;
+    color: #253C59;
 }
 
 @media screen and (max-width: 600px) {
