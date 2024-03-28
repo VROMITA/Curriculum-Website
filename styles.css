@@ -97,6 +97,15 @@ body {
     z-index: 2;
   }
 
+  #containerWelcomeImage {
+    width: 100%;
+  }
+  
+  #welcomeImage {
+    width: 100%;
+    height: auto;
+  }
+
   #city{
     position: absolute;
     top:60%; /* Posizionati a 20% dall'alto */
@@ -108,7 +117,17 @@ body {
 }
 
 #degrees {
-    bottom: 10%; /* Posizionati un po' più in alto rispetto a city */
+    bottom: 10%; 
+}
+
+#clockContainer{
+    position: absolute;
+    top:65%; /* Posizionati a 20% dall'alto */
+    left: 50%;
+    transform: translateX(-50%);
+    color: #253C59;
+    font-size: 2rem;
+    z-index: 2;
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px){
@@ -125,6 +144,21 @@ body {
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px){
+    #clockContainer{
+        font-size: 2rem; /* Riduci la dimensione del testo per dispositivi più piccoli */
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    #clockContainer{
+        font-size: 1rem; /* Riduci la dimensione del testo per dispositivi più piccoli */
+    }
+}
+
+
+
+@media screen and (min-width: 601px) and (max-width: 1024px){
     #welcomeTitle {
         font-size: 4rem; /* Riduci la dimensione del testo per dispositivi più piccoli */
     }
@@ -138,14 +172,7 @@ body {
     
   }
   
-  #containerWelcomeImage {
-    width: 100%;
-  }
   
-  #welcomeImage {
-    width: 100%;
-    height: auto;
-  }
 
 
 
@@ -226,7 +253,7 @@ hover:active{
     margin: 0 auto;
     width: 100%;
     max-width: 600px;
-    height: auto;
+    height: 350px;
     border: 3px solid #253C59;
     border-radius: 5px;
     background-color: #BF8D30;
@@ -242,6 +269,14 @@ hover:active{
 @media screen and (max-width: 600px) {
     .carousel-item p {
         font-size: 20px;
+        
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .carousel-inner {
+        height: 260px;
         
     }
 

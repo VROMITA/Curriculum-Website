@@ -1,14 +1,10 @@
 const apiKey = "06c970a79fa97220038e7592a6045834";
-const apiUrl= "https://api.openweathermap.org/data/2.5/weather?units=metric&q=Bari";
+const apiUrl= "https://api.openweathermap.org/data/2.5/weather?units=metric&q=Maastricht";
 const image = document.querySelector("#welcomeImage");
-const title = document.querySelector("#welcomeTitle");
-const city = document.querySelector("#city");
-const degrees = document.querySelector("#degrees");
+
 
 async function checkWeather(){
 
-
-    
     const response = await fetch(apiUrl + `&appid=${apiKey}`);
     var data = await response.json();
 
@@ -34,4 +30,19 @@ async function checkWeather(){
     console.log(data);
 }
 
+function startTime() {
+    const today = new Date();
+    let h = today.getHours();
+    let m = today.getMinutes();
+    m = checkTime(m);
+    document.getElementById('clockContainer').innerHTML =  h + ":" + m;
+    setTimeout(startTime, 1000);
+  }
+  
+  function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+  }
+
 checkWeather();
+startTime();
