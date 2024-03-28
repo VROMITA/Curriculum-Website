@@ -31,7 +31,7 @@ async function checkWeather(){
     }
 
     document.querySelector("#city").innerHTML= data.name;
-    document.querySelector("#degrees").innerHTML= Math.round(data.main.temp) + "°";
+    
 
     console.log(data);
 }
