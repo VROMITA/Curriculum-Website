@@ -18,8 +18,6 @@ async function checkWeather(){
         image.src = "images/sunnyWeather.png";
         document.getElementById("city").style.color = "white";
         document.getElementById("welcomeTitle").style.color = "white";
-        document.getElementById("degrees").style.color = "white";
-
     }else if(data.weather[0].main == "Clouds"){
         image.src = "images/cloudyWeather.png";
     }else if(data.weather[0].main == "Rainy"){
